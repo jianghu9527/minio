@@ -71,7 +71,7 @@ import okhttp3.Response;
 public class MainActy extends AppCompatActivity {
 
 
-    private static final String baseUrl = "http://1.116.41.216:9999";  //http://101.204.24.30:8000   http://1.116.41.216:9999
+    private static final String baseUrl = "";
     private static final String accessKey = "Og30uh8IWxHRxto04rio";
     private static final String secretKey = "L5nsJMxqBXDRjqpXOJWy79iXYCb6g8S9Z4CB02LK";
     private static final String bucketName = "android";//eapc  android

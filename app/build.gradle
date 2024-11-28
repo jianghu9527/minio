@@ -74,7 +74,7 @@ dependencies {
     implementation 'joda-time:joda-time:2.10.8'
     implementation "com.carrotsearch.thirdparty:simple-xml-safe:2.7.1"
     implementation "com.google.guava:guava:25.1-jre"
-    implementation "com.squareup.okhttp3:okhttp:3.14.9"
+
     implementation "com.fasterxml.jackson.core:jackson-annotations:2.10.3"
     implementation "com.fasterxml.jackson.core:jackson-core:2.10.3"
     implementation "com.fasterxml.jackson.core:jackson-databind:2.10.3"
@@ -83,8 +83,14 @@ dependencies {
     implementation 'com.google.code.findbugs:jsr305:3.0.2'
 
 //    implementation("io.minio:minio:8.5.13")
-
     implementation("io.minio:minio:8.1.0")
+
+//    implementation "com.squareup.okhttp3:okhttp:3.14.9"
+//    implementation 'com.squareup.okhttp3:okhttp:3.0.0'
+
+//    implementation   "com.squareup.okhttp3:okhttp:3.12.3"
+    implementation("com.squareup.okhttp3:okhttp:4.12.0")
+
 
 //    implementation 'javax.xml.stream:stax-api:1.0-2'
 //// 添加 Woodstox 实现
